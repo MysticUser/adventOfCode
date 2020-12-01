@@ -15,8 +15,8 @@ func main() {
 	fmt.Print("Enter a day: ")
 	day, _ := reader.ReadString('\n')
 
-	fmt.Print("Paste input: ")
-	input, _ := reader.ReadString('\n')
+	fmt.Println("Paste input (press tab and enter to continue):")
+	input, _ := reader.ReadString('\t')
 	fmt.Println()
 	/* */
 

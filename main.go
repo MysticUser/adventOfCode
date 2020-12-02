@@ -21,15 +21,15 @@ func main() {
 	/* */
 
 	/* Development usage * /
-	day := "1\n"
-	input := "123 345 634"
+	day := "2\n"
+	input := "1-3 a: abcde\n1-3 b: cdefg\n2-9 c: ccccccccc\n"
 	/* */
 
 	switch day {
 	case "1\n":
 		aoc.Day01(input)
-	//case "2\n":
-	//	aoc.Day02()
+	case "2\n":
+		aoc.Day02(input)
 	default:
 		fmt.Println("Not found!")
 	}

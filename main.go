@@ -18,11 +18,11 @@ func main() {
 	fmt.Println("Paste input (press tab and enter to continue):")
 	input, _ := reader.ReadString('\t')
 	fmt.Println()
-	/* */
+	/* * /
 
 	/* Development usage * /
-	day := "2\n"
-	input := "1-3 a: abcde\n1-3 b: cdefg\n2-9 c: ccccccccc\n"
+	day := "3\n"
+	input := "..##.......\n#...#...#..\n.#....#..#.\n..#.#...#.#\n.#...##..#.\n..#.##.....\n.#.#.#....#\n.#........#\n#.##...#...\n#...##....#\n.#..#...#.#"
 	/* */
 
 	switch day {
@@ -30,6 +30,8 @@ func main() {
 		aoc.Day01(input)
 	case "2\n":
 		aoc.Day02(input)
+	case "3\n":
+		aoc.Day03(input)
 	default:
 		fmt.Println("Not found!")
 	}

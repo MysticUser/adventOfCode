@@ -46,4 +46,5 @@ func Day02(rawInput string) {
 
 	fmt.Println("Matches part one: ", matchCountPartOne)
 	fmt.Println("Matches part two: ", matchCountPartTwo)
+	// clock failed
 }

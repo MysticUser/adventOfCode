@@ -41,4 +41,5 @@ func Day01(rawInput string) {
 
 	fmt.Printf("Part one solution: %v\n", partOne)
 	fmt.Printf("Part two solution: %v\n", partTwo)
+	// took 33 min
 }

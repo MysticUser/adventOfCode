@@ -73,7 +73,7 @@ func Day04(rawInput string) {
 					}
 
 				case "ecl":
-					validColors := [7]string{"amb", "blu", "brn", "gry", "grn", "hzl", "oth"}
+					validColors := []string{"amb", "blu", "brn", "gry", "grn", "hzl", "oth"}
 
 					if !contains(validColors, value) {
 						continue
@@ -106,13 +106,4 @@ func Day04(rawInput string) {
 	fmt.Println("Valid passports part one: ", matchCountPartOne)
 	fmt.Println("Valid passports part two: ", matchCountPartTwo)
 	// took 134 min
-}
-
-func contains(arr [7]string, str string) bool {
-	for _, a := range arr {
-		if a == str {
-			return true
-		}
-	}
-	return false
 }

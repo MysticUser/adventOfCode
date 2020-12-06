@@ -5,6 +5,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"time"
 )
 
 func main() {
@@ -27,11 +28,12 @@ func main() {
 		/* */
 	} else {
 		/* Development usage */
-		day = "5\n"
-		input = "FBFBBFFRLR\nBFFFBBFRRR\nFFFBBBFRRR\nBBFFBBFRLL\n"
+		day = "6\n"
+		input = "abc\n\na\nb\nc\n\nab\nac\n\na\na\na\na\n\nb\n"
 		/* */
 	}
 
+	start := time.Now()
 	switch day {
 	case "1\n":
 		aoc.Day01(input)
@@ -43,7 +45,10 @@ func main() {
 		aoc.Day04(input)
 	case "5\n":
 		aoc.Day05(input)
+	case "6\n":
+		aoc.Day06(input)
 	default:
 		fmt.Println("Not found!")
 	}
+	fmt.Printf("\nExecution took %s\n", time.Since(start))
 }

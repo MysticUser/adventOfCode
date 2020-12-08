@@ -9,6 +9,15 @@ func contains(haystack []string, needle string) bool {
 	return false
 }
 
+func containsInt(haystack []int, needle int) bool {
+	for _, a := range haystack {
+		if a == needle {
+			return true
+		}
+	}
+	return false
+}
+
 func find(haystack []string, needle string) int {
 	var key = -1
 	for _, a := range haystack {

@@ -74,6 +74,7 @@ func Day08(rawInput string) {
 	fmt.Println("Accumulator value (Part 2): ", matchCountPartTwo)
 	// took 80 minutes
 	// execution-time: 4.617ms (i5-8250U)
+	// execution-time: 662.453µs (Ryzen 5 3600)
 }
 
 func runProgram(program []programStruct) (int, int8, []int) {

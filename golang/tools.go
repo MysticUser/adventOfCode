@@ -28,3 +28,23 @@ func find(haystack []string, needle string) int {
 	}
 	return -1
 }
+
+func highest(haystack []int) int {
+	var highest int
+	for _, num := range haystack {
+		if num > highest {
+			highest = num
+		}
+	}
+	return highest
+}
+
+func lowest(haystack []int) int {
+	var lowest int
+	for _, num := range haystack {
+		if lowest == 0 || num < lowest {
+			lowest = num
+		}
+	}
+	return lowest
+}

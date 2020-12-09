@@ -28,8 +28,8 @@ func main() {
 		/* */
 	} else {
 		/* Development usage */
-		day = "8\n"
-		input = "nop +0\nacc +1\njmp +4\nacc +3\njmp -3\nacc -99\nacc +1\njmp -4\nacc +6\n"
+		day = "9\n"
+		input = "35\n20\n15\n25\n47\n40\n62\n55\n65\n95\n102\n117\n150\n182\n127\n219\n299\n277\n309\n576\n"
 		/* */
 	}
 
@@ -51,6 +51,8 @@ func main() {
 		aoc.Day07(input)
 	case "8\n":
 		aoc.Day08(input)
+	case "9\n":
+		aoc.Day09(input)
 	default:
 		fmt.Println("Not found!")
 	}

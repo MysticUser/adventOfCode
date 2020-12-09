@@ -106,4 +106,5 @@ func Day04(rawInput string) {
 	fmt.Println("Valid passports part one: ", matchCountPartOne)
 	fmt.Println("Valid passports part two: ", matchCountPartTwo)
 	// took 134 min
+	// executed in 1.625ms (Ryzen 5 3600)
 }

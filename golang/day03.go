@@ -36,4 +36,5 @@ func Day03(rawInput string) {
 	fmt.Println("Encounters part one: ", matchCountPartOne)
 	fmt.Println("Encounters part two: ", matchCountPartTwo)
 	// took 46 minutes
+	// executed in 52.98µs (Ryzen 5 3600)
 }

@@ -43,4 +43,5 @@ func Day06(rawInput string) {
 	fmt.Println("Yes answers  (Part 1): ", matchCountPartOne)
 	fmt.Println("Same answers (Part 2): ", matchCountPartTwo)
 	// took 60+ minutes
+	// executed in 1.332ms (Ryzen 5 3600)
 }

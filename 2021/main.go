@@ -15,6 +15,7 @@ func main() {
 	var useNavigator bool
 
 	useNavigator = true
+	//useNavigator = false
 
 	if useNavigator {
 		/* NAVIGATOR */
@@ -28,8 +29,8 @@ func main() {
 		/* */
 	} else {
 		/* Development usage */
-		day = "1\n"
-		input = "199\n200\n208\n210\n200\n207\n240\n269\n260\n263\n"
+		day = "2\n"
+		input = "forward 5\ndown 5\nforward 8\nup 3\ndown 8\nforward 2\n"
 		/* */
 	}
 
@@ -37,6 +38,8 @@ func main() {
 	switch day {
 	case "1\n":
 		aoc.Day01(input)
+	case "2\n":
+		aoc.Day02(input)
 	default:
 		fmt.Println("Not found!")
 	}

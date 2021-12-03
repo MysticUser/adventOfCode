@@ -29,8 +29,8 @@ func main() {
 		/* */
 	} else {
 		/* Development usage */
-		day = "2\n"
-		input = "forward 5\ndown 5\nforward 8\nup 3\ndown 8\nforward 2\n"
+		day = "3\n"
+		input = "00100\n11110\n10110\n10111\n10101\n01111\n00111\n11100\n10000\n11001\n00010\n01010\n"
 		/* */
 	}
 
@@ -40,6 +40,8 @@ func main() {
 		aoc.Day01(input)
 	case "2\n":
 		aoc.Day02(input)
+	case "3\n":
+		aoc.Day03(input)
 	default:
 		fmt.Println("Not found!")
 	}
